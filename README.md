@@ -17,6 +17,20 @@ We don't need to write uncompiled code anymore:
 - CSS - SCSS
 - JS - jQuery
 
+# Separation
+
+Frontend in 99% is mess without rules and standards. 
+But what is best to keep it DRY/MVC, clean and simple?
+
+We found holy grail in creating something similar what web components are. 
+Class have simply, one leter prefixes, js use only data- atrib and html tags are untouched to reset style.
+
+<div //MODEL
+ class="STYLE" //VIEW
+ data-js="CONFIGURATION" //CONTROLLER
+>DATA</div>
+
+ 
 # FAQ
 
 # What browser is supported?
