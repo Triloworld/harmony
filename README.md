@@ -25,10 +25,10 @@ But what is best to keep it DRY/MVC, clean and simple?
 We found holy grail in creating something similar what web components are. 
 Class have simply, one leter prefixes, js use only data- atrib and html tags are untouched to reset style.
 
-`<div //MODEL
- class="STYLE" //VIEW
- data-js="CONFIGURATION" //CONTROLLER
->DATA</div>`
+    <div //MODEL
+     class="STYLE" //VIEW
+     data-js="CONFIGURATION" //CONTROLLER
+    >DATA</div>
 
  
 # FAQ
